@@ -1,0 +1,17 @@
+# SSH Server Library
+# asyncssh provides an async implementation of SSH protocol for Python
+# This allows us to create an SSH server that can handle multiple connections
+asyncssh==2.14.2
+
+# Terminal UI Library
+# blessed makes it easy to work with terminal escape codes and provides
+# a clean API for colors, cursor movement, and keyboard input
+blessed==1.20.0
+
+# Async support
+# asyncio is built-in, but we may need additional async utilities
+aiofiles==23.2.1
+
+# Environment variable management
+# Allows us to keep sensitive config (passwords, keys) out of source code
+python-dotenv==1.0.0
